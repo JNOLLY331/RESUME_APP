@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Japheth Anold Dindi — Computer Science student at Moi University. Python & Django, JavaScript & React, REST APIs, PostgreSQL, Networking and DevOps.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>Japheth Anold Dindi — Computer Science Developer</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Raleway:wght@300;400;500;600;700;800;900&family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            roboto: ['Roboto', 'sans-serif'],
+            raleway: ['Raleway', 'sans-serif'],
+            mulish: ['Mulish', 'sans-serif'],
+          },
+          colors: {
+            accent: '#1f9d4d',
+            'accent-dim': '#14663a',
+            'dark-bg': '#0d0d0d',
+            'dark-surface': '#141414',
+            'dark-card': '#1a1a1a',
+            'dark-border': 'rgba(255,255,255,0.07)',
+            'light-bg': '#f0f7f0',
+            'light-surface': '#ffffff',
+            'light-card': '#eaf5ea',
+            'light-border': 'rgba(0,0,0,0.08)',
+          },
+          boxShadow: {
+            'green-glow': '0 0 20px rgba(0,100,0,0.25)',
+            'green-glow-lg': '0 0 40px rgba(0,100,0,0.3)',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
